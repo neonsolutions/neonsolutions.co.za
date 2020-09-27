@@ -1,0 +1,187 @@
+:root {
+	
+	--brand-color: #6C63FF;
+}
+
+.page {
+    max-width: 960px !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contentSection {
+    padding-bottom: 40px;
+}
+
+.textCard {
+    padding: 30px !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 23px;
+    line-height: 28px;
+    color: #828282;
+    
+
+    background: rgba(226, 226, 226, 0.25);
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+}
+.titleHeader{
+    padding-bottom: 45px;
+}
+.underLineText {
+    background: #E2E2E2;
+    height: 4px;
+    width: 100%;
+}
+.pageDivider {
+    background: rgba(196, 196, 196, 0.15);
+    height: 4px;
+    width: 100%;
+    margin-top: -20px;
+}
+.vertDivider {
+    background: rgba(196, 196, 196, 0.15);
+    height: 100%;
+    width: 4px;
+   
+}
+.sbutton , input[type="submit"], input[type="reset"] {
+    background: #6C63FF;
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    border: none !important;
+	cursor: pointer !important;
+	outline: inherit !important;
+}
+.sbutton:hover {
+    transition-duration: 0.3s !important;
+    background: rgba(108, 99, 255, 0.90) !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+input {
+    background: #F2F2F2  ;
+    border-radius: 6px;
+    border-width: 0px ;
+    transition: ease-in-out, border-radius .5s ease-in-out;
+    margin-top: 4px ; 
+    width: 100%;
+    height: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #4F4F4F;
+    padding-left: 10px;
+}
+input:focus{
+    border-radius: 0px;
+    border-width: 0px ;
+}
+textarea {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    border-radius: 7px;
+    font-size: 14px !important;
+    line-height: 15px !important;
+    color: #4F4F4F !important;
+    border: none !important;
+	cursor: pointer !important;
+    outline: inherit !important;
+    background: #F2F2F2;
+    padding: 6px;
+}
+.textInput::placeholder {
+    color: #C0C0C0;
+}
+.textInput:disabled {
+    color: #C0C0C0!important;
+}
+.textInput:disabled::placeholder {
+    color: #E0E0E0 !important;
+}
+.profileImg {
+    width: 168px;
+    height: 168px;
+}
+.a1 {
+    margin-left:-170px ; 
+    padding-top:68px; 
+}
+.a2 {
+    padding-top:70px; 
+    margin-left: -20px;
+}
+.p1 {
+    margin-left:-145px ; 
+    padding-top:60px; 
+}
+.p2 {
+    padding-top:70px; 
+    margin-left: -20px;
+}
+.p3 {
+    margin-left:-140px ; 
+    padding-top:85px; 
+}
+.t1 {
+    padding-top:10px; 
+    margin-left: -20px;
+}
+.t2 {
+    margin-left:-170px ; 
+    padding-top:15px; 
+}
+h1{
+    font-size: 45px;
+    line-height: 53px;
+    color: #333333;
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+}
+h2{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    line-height: 35px;
+    text-align: center;
+
+    color: #333333;
+}
+h3{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 21px;
+    text-align: center;
+    color: #4F4F4F;
+}
+h4{
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 21px;
+
+    color: #BDBDBD;
+}
