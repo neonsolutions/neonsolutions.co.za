@@ -2,6 +2,9 @@
 	
 	--brand-color: #6C63FF;
 }
+html {
+    scroll-behavior: smooth;
+   }
 
 .page {
     max-width: 960px !important;
@@ -12,7 +15,12 @@
 .contentSection {
     padding-bottom: 40px;
 }
+.introSection{
+    max-width: 1400px !important;
+    padding-bottom: 40px;
+    margin-top: -20px;
 
+}
 .textCard {
     padding: 30px !important;
     font-family: Roboto;
@@ -47,6 +55,13 @@
     height: 100%;
     width: 4px;
    
+}
+.scrollButton {
+    transition-duration: 3s;
+    border: none !important;
+	cursor: pointer !important;
+    outline: none !important;
+    background: none ;
 }
 .sbutton , input[type="submit"], input[type="reset"] {
     background: #6C63FF;
@@ -121,34 +136,251 @@ textarea {
     width: 168px;
     height: 168px;
 }
+.cButton {
+    padding-top: 40px;
+}
 .a1 {
     margin-left:-170px ; 
     padding-top:68px; 
+    min-width: 425px;
 }
 .a2 {
     padding-top:70px; 
     margin-left: -20px;
+    min-width: 440px;
 }
 .p1 {
     margin-left:-145px ; 
     padding-top:60px; 
+    max-width: 512px;
 }
 .p2 {
     padding-top:70px; 
     margin-left: -20px;
+    min-width: 552px;
 }
 .p3 {
     margin-left:-140px ; 
     padding-top:85px; 
+    min-width: 552px;
 }
 .t1 {
     padding-top:10px; 
     margin-left: -20px;
+    min-width: 590px;
 }
 .t2 {
     margin-left:-170px ; 
     padding-top:15px; 
 }
+.imgA1{
+    margin-left: -15px;
+}
+.imgA3{
+    display: none;
+    width: 100%;
+}
+.imgP1{
+    margin-left: -8px;
+    margin-top: 10px ; 
+}
+.imgP2 {
+    margin-left: 75px ;
+}
+.imgP3 {
+    margin-left: -15px;
+    margin-top: 10px ; 
+}
+.imgT1 {
+    margin-left : -109px;
+    z-index: -1;
+    margin-top: 80px ;
+}
+.imgT2 {
+    margin-left: -15px;
+}
+
+@media (max-width:980px) {
+    .a1 {   
+     padding-top: 25px;
+     margin-left: 0px;
+    }
+    .a2{
+     margin-left: 0px;
+     padding-top: 25px;
+     min-width: 520px;
+     width: 100% !important;
+    }
+    .p1{
+        margin-left: 0px ;
+        min-width: 329px !important;
+        padding-top: 30px;
+       }
+    .p2 {
+        padding-top:30px; 
+        margin-left: 0px;
+        min-width: 300px;
+        
+    }
+    .p3{
+        padding-top: 25px;
+        margin-left: 0px;
+        width: 100%;
+        min-width: 405px;
+        margin-top: -100px;
+       }
+    .t1 {
+        padding-top: 220px;
+        margin-left: 0px;
+    }
+    .imgA1{
+     min-height: 50px; 
+     width: 100%;  
+     min-width: 500px;
+     margin-left: 0px;
+    }
+    .imgA2{
+        display: none ;
+    }
+    .imgA3 {
+        display: flex; 
+        min-width: 520px;
+        padding-top: 10px ;
+    }
+    .imgP1{
+        margin-left: 4px;
+        margin-top: 0px ; 
+    }
+    .imgP2 {
+        margin-left: 30px;   
+        z-index: -1; 
+
+    }
+    .imgP3 {
+        min-height: 50px; 
+        width: 100%;  
+        min-width: 500px;
+        margin-left: 0px;
+       }
+    .imgT1 {
+        margin-left : 0px;
+        margin-top: -380px ;    
+    }
+    .imgT2 {
+        margin-left: 0px;
+    }
+    .titleHeader{
+        padding-left: 20px;
+       }
+    .cButton {
+       padding-top: 20px;
+    }
+    #Touter {
+        width: 100%;
+        text-align: center;
+    }
+    #Tinner {
+        display: inline-block;
+    }
+      
+  }
+  @media (max-width:720px) {
+    .p2 {
+        min-width: 400px;
+        padding-top: 200px;
+    }
+    .t1 {
+        padding-top: 180px;
+    }
+    .t2 {
+        min-width: 600px;
+        margin-left: 0px;
+    }
+    .imgP2 {
+        margin-left: 0px;
+        margin-top: -340px;
+    }
+    .imgT1 {
+        margin-left : 0px;
+        margin-top: -380px ;    
+    }
+    #outer {
+        width: 100%;
+        text-align: center;
+    }
+    #inner {
+        display: inline-block;
+    }
+  }
+  @media (max-width:560px) {
+    .a1{
+     min-width: 300px  !important;
+    }
+    .a2{
+     min-width: 300px;
+    }
+    .p2 {
+     min-width: 300px;
+     padding-top: 160px;
+    }
+    .p3{
+        min-width: 300px  !important;
+       }
+    .t1 {
+        min-width: 300px  !important;
+        padding-top: 150px;
+    }
+    .t2 {
+        min-width: 300px;
+    }
+    .imgA1{
+     min-width: 250px;
+    }
+    .imgA3{
+        min-width: 250px;
+    }
+    .imgP1{
+        width: 250px;
+    }
+    .imgP2 {
+        margin-left: 0px;
+        margin-top: -260px;
+    }
+    .imgP22{
+        width: 220px !important;
+    }
+    .imgP3{
+        min-width: 250px;
+       }
+    .imgT1 {
+        margin-left : 0px;
+        margin-top: -290px ;    
+    }
+    .imgT11 {
+        width: 240px;   
+    }
+    .imgT22 {
+        width: 240px;
+    }
+    .textCard {
+        font-size: 15px;
+        line-height: 19px;
+        padding:20px !important;
+    }
+    
+  }
+  @media (max-width:412px) {
+      .t1 {
+          padding-top: 150px;
+      }
+      .imgT1 {
+        margin-left : 0px;
+        margin-top: -320px ;    
+    }
+
+  }
+
+
 h1{
     font-size: 45px;
     line-height: 53px;

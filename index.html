@@ -11,11 +11,18 @@
 
                   
 <body>
-  
   <!--Intro-->
-  <div class="container d-flex " id="intro"  style="max-width : 1400px ; padding-bottom: 100px; margin-top: -20px;">
-    <script
-                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ehlsxkxb.json" background="transparent" speed="1" style="width: 100%; height: 100%;"   autoplay></lottie-player>
+  <div class="container d-flex introSection " id="intro"  >
+    <div class="col" >
+      <div class="row" >
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ehlsxkxb.json" background="transparent" speed="1"    autoplay></lottie-player>
+      </div>
+      <div class="row justify-content-center">
+        <button  class="scrollButton" id="scrollButton"  onClick="document.getElementById('pAbout').scrollIntoView();" >
+          <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8m8vfvlh.json" background="transparent" speed="1" style="width: 40px; height: 40px;" loop  autoplay></lottie-player>
+        </button>
+      </div>
+    </div>
   </div>
   <div class="pageDivider"></div>
   <!--About-->
@@ -26,14 +33,14 @@
           <div class="row">
             <h1>Information with a purpose</h1>
           </div>
-          <div class="row" style="width: 490px;">
-            <div class="underLineText"></div>
+          <div class="row" >
+            <div class="underLineText" style="max-width: 490px;"></div>
           </div>
         </div>
       </div>
       <div class="row contentSection">
-        <div class="col" style="margin-left: -15px;">
-          <img src="static/img/a1.svg"/>
+        <div class="col">
+          <img class="imgA1" src="static/img/a1.svg" >
         </div>
         <div class="col a1" >
           <div class="textCard">
@@ -42,12 +49,15 @@
         </div>
       </div>
       <div class="row contentSection">
+        <div class="col imgA3"  >
+          <img class="imgA3" src="static/img/a3.svg"/>  
+        </div>
         <div class="col a2" >
-          <div class="textCard" style="width: 440px;">
+          <div class="textCard" >
             We engineer innovative software that collects data, processes it into information, and presents it in a way that is easily understandable and useful to your business. 
           </div>
         </div>
-        <div class="col" style="margin-right : -30px">
+        <div class="col imgA2" style="margin-right : -30px" >
           <img src="static/img/a2.svg"/>  
         </div>
       </div>
@@ -62,43 +72,43 @@
           <div class="row">
             <h1>No upfront costs, no hassle</h1>
           </div>
-          <div class="row" style="width: 500px;">
-            <div class="underLineText"></div>
+          <div class="row" >
+            <div class="underLineText" style="max-width: 500px;"></div>
           </div>
         </div>
       </div>
-      <div class="row contentSection">
-        <div class="col" style="margin-left: -15px; margin-top: 10px">
-          <img src="static/img/p1.svg"/>
+      <div class="row contentSection ">
+        <div class="col imgP1 " id="outer">
+          <img class="imgP1" src="static/img/p1.svg" id="inner"/>
         </div>
         <div class="col p1" >
-          <div class="textCard"  style="width: 512px;">
+          <div class="textCard" >
             We know that getting custom software built can be a taxing and expensive undertaking. 
           </div>
         </div>
       </div>
       <div class="row contentSection">
         <div class="col p2" >
-          <div class="textCard" style="width: 520px;">
+          <div class="textCard" >
             This is why we develop your solution with no upfront cost, but instead tailor a competitive annual commitment plan specifically to your solution.  
           </div>
         </div>
-        <div class="col" style="margin-left : 75px !important">
-          <img src="static/img/p2.svg"/>  
+        <div class="col imgP2"  id="outer" >
+          <img class="imgP22" src="static/img/p2.svg" id="inner" />  
         </div>
       </div>
       <div class="row contentSection">
-        <div class="col" style="margin-left: -15px; margin-top: 10px">
-          <img src="static/img/p3.svg"/>
+        <div class="col" >
+          <img class="imgP3" src="static/img/p3.svg"/>
         </div>
         <div class="col p3" >
           <div class="row">
-            <div class="textCard"  style="width: 530px;">
+            <div class="textCard"  >
               We are committed to continuously improving your solution and new features can be added with an increase to your annual commitment.
             </div>
           </div>
-          <div class="row float-right" style="padding-right: 12px; padding-top: 45px;">
-            <button class="sbutton" id="moveTooContact">Contact Us</button>
+          <div class="row float-right cButton" >
+            <button class="sbutton" onClick="document.getElementById('pContact').scrollIntoView();" >Contact Us</button>
           </div>
         </div>
       </div>
@@ -113,24 +123,24 @@
           <div class="row">
             <h1>Meet the team</h1>
           </div>
-          <div class="row" style="width: 270px;">
-            <div class="underLineText"></div>
+          <div class="row" >
+            <div class="underLineText" style="max-width: 270px;"></div>
           </div>
         </div>
       </div>
       <div class="row contentSection">
         <div class="col t1" >
-          <div class="textCard" style="width: 590px;">
+          <div class="textCard">
             Our team consists of developers currently pursuing various engineering disciplines at the University of Cape Town. Together we have identified a demand for custom analytics solutions which we aim to fulfill in style.  
           </div>
         </div>
-        <div class="col" style="margin-left : -109px; z-index: -1; margin-top: 80px !important;">
-          <img src="static/img/t1.svg"/>  
+        <div class="col imgT1" id="Touter">
+          <img class="imgT11" src="static/img/t1.svg"id="Tinner"/>  
         </div>
       </div>
       <div class="row contentSection">
-        <div class="col" style="margin-left: -15px;">
-          <img src="static/img/t2.svg"/>
+        <div class="col" id="outer" >
+          <img class="imgT22"src="static/img/t2.svg" id="inner"/>
         </div>
         <div class="col t2" >
           <div class="textCard">
@@ -168,16 +178,16 @@
     </div>
   </div>
   <div class="pageDivider"></div>
-  <!--About-->
-  <div class="container d-flex page" id="pAbout" >
+  <!--Contact-->
+  <div class="container d-flex page" id="pContact" >
     <div class="col">
       <div class="row titleHeader" >
         <div class="col">
           <div class="row">
             <h1>Let's get started</h1>
           </div>
-          <div class="row" style="width: 300px;">
-            <div class="underLineText"></div>
+          <div class="row">
+            <div class="underLineText"  style="max-width: 300px;"></div>
           </div>
         </div>
       </div>
