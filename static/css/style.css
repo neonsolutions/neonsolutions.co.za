@@ -56,6 +56,7 @@ html {
     width: 4px;
    
 }
+
 .scrollButton {
     transition-duration: 3s;
     border: none !important;
@@ -139,6 +140,10 @@ textarea {
 .cButton {
     padding-top: 40px;
 }
+.scrollBut {
+    width: 40px;
+    height: 40px;
+}
 .a1 {
     margin-left:-170px ; 
     padding-top:68px; 
@@ -199,8 +204,62 @@ textarea {
 .imgT2 {
     margin-left: -15px;
 }
+.tLuke {
+    margin-left: 70px;
+}
+.tStephan {
+    margin-right: 70px;
+}
+#douter {
+    width: 100%;
+    text-align: center;
+}
+#dinner {
+    display: inline-block;
+}
+.contact {
+    width: 100%;
+    min-width: 550px;
+    margin-left: -12px ;
+}
+.cButton {
+    margin-right: 0px !important;
+ }
+ 
+.aUn {
+    max-width: 490px;
+}
+.pUn {
+    max-width: 500px;
+}
+.tUn {
+    max-width: 270px;
+}
+.cUn {
+    max-width: 300px;
+}
 
 @media (max-width:980px) {
+    .scrollBut {
+        width: 25px;
+        height: 25px;
+    }
+    h1{
+        font-size: 26px !important;
+        line-height: 30px !important;
+    }
+    .aUn{
+        max-width: 320px;
+    }
+    .pUn {
+        max-width: 330px;
+    }
+    .tUn {
+        max-width: 180px;
+    }
+    .cUn {
+        max-width: 200px;
+    }
     .a1 {   
      padding-top: 25px;
      margin-left: 0px;
@@ -261,6 +320,8 @@ textarea {
         width: 100%;  
         min-width: 500px;
         margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
        }
     .imgT1 {
         margin-left : 0px;
@@ -274,6 +335,10 @@ textarea {
        }
     .cButton {
        padding-top: 20px;
+    }
+    .contact {
+        margin-left: 2px;
+        min-width: 300px;
     }
     #Touter {
         width: 100%;
@@ -310,6 +375,26 @@ textarea {
     }
     #inner {
         display: inline-block;
+    }
+  }
+  @media (max-width:660px) {
+    .imgC1 {
+        display: none ;     
+    }
+  }
+  @media (max-width:600px) {
+    .tLuke {
+        min-width: 350px;
+        margin-left: 0px;
+        margin-top: -40px;
+        padding-bottom: 30px;
+    }
+    .tStephan {
+        min-width : 350px; 
+        margin-right: 0px;
+    }
+    .tDivider {
+        display: none !important;
     }
   }
   @media (max-width:560px) {
@@ -366,9 +451,9 @@ textarea {
         font-size: 15px;
         line-height: 19px;
         padding:20px !important;
-    }
-    
+    }   
   }
+
   @media (max-width:412px) {
       .t1 {
           padding-top: 150px;
@@ -376,6 +461,12 @@ textarea {
       .imgT1 {
         margin-left : 0px;
         margin-top: -320px ;    
+    }
+    .tLuke {
+        min-width : 300px;
+    }
+    .tStephan {
+        min-width : 300px;
     }
 
   }
