@@ -26,6 +26,17 @@ a{
     padding-left: 3px;
     padding-right: 3px;
 }
+
+.introSection {
+    position: relative;
+}
+.mid {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .textCard {
     padding: 30px !important;
     font-family: Roboto;
@@ -450,6 +461,9 @@ textarea {
     }
   }
   @media (max-width:560px) {
+    .mid {
+        margin-top: -40px;
+    }
     .footerText {
         font-size: 12px !important;
         line-height: 40px !important;
