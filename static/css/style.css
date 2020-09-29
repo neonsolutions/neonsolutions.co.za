@@ -341,7 +341,7 @@ textarea {
     }
     .contact {
         margin-left: 2px;
-        min-width: 300px;
+        min-width: 260px;
     }
     #Touter {
         width: 100%;
@@ -408,7 +408,7 @@ textarea {
   }
   @media (max-width:560px) {
     .introAni {
-        padding-top: 120px;
+        padding-top: 100px;
     }
     .a1{
      min-width: 300px  !important;
