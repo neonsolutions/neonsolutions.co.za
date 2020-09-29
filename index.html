@@ -196,11 +196,11 @@
         <div class="col" >
           <form class="contact" action="https://formspree.io/xnqondyr" method="POST">
             <h4>Full name</h4>
-            <input class="textInput" type="text"  name="_name"  >
+            <input class="textInput" type="text"  name="_name"  required>
             <h4 style="margin-top: 26px;">Email address</h4>
-            <input class="textInput" type="text"  aria-describedby="emailHelp" name="_replyto" oninput="loginFormInputChanged()">
+            <input class="textInput" type="text"  aria-describedby="emailHelp" name="_replyto" oninput="loginFormInputChanged()" required>
             <h4 style="margin-top: 26px;">Tell us what you need</h4>
-            <textarea   name="message" style="width: 100%; min-height: 150px; max-height: 400px;"></textarea>
+            <textarea   name="message" style="width: 100%; min-height: 150px; max-height: 400px;" required></textarea>
             <div style="padding-top: 25px;"> 
               <button type="submit" class="sbutton">Send</button>
             </div>
@@ -222,9 +222,9 @@
           <div class="footerText fm">© Neon Solutions 2020.</div>
         </div>
         <div class="row">
-          <div class="col"><button type="button" onclick="location.href='mailto:hello@neonsolutions.co.za'"  class="footButton"><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_fbh8w9xq.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></button></div>
-          <div class="col"><button type="button" onclick="location.href='https://www.linkedin.com/company/neonsolutions'" class="footButton"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_veenspod.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></button></div>
-          <div class="col"><button type="button" onclick="location.href='https://github.com/neonsolutions'" class="footButton"><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_jzgljhlz.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></button></div>
+          <div class="col"><a href="mailto:hello@neonsolutions.co.za" target="_blank" rel="noopener noreferrer" class="footButton"><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_fbh8w9xq.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></a></div>
+          <div class="col"><a href="https://www.linkedin.com/company/neonsolutions" target="_blank" rel="noopener noreferrer" class="footButton"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_veenspod.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></a></div>
+          <div class="col"><a href="https://github.com/neonsolutions" target="_blank" rel="noopener noreferrer" class="footButton"><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_jzgljhlz.json"  background="transparent"  speed="1"  style="width: 40px; height: 40px;" hover   ></lottie-player></a></div>
         </div>
       </div>
     </div>
