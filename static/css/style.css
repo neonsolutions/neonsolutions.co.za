@@ -194,7 +194,7 @@ textarea {
 .p3 {
     margin-left:-140px ; 
     padding-top:85px; 
-    min-width: 552px;
+    min-width: 568px;
 }
 .t1 {
     padding-top:10px; 
@@ -419,6 +419,14 @@ textarea {
     }
   }
   @media (max-width:600px) {
+    .imgP2 {
+        margin-left: 0px;
+        margin-top: -360px;
+    }
+    .p2 {
+        min-width: 300px;
+        padding-top: 160px;
+       }
     .introAni {
         min-width: 700px;
     }
@@ -481,7 +489,7 @@ textarea {
     }
     .imgP2 {
         margin-left: 0px;
-        margin-top: -260px;
+        margin-top: -270px;
     }
     .imgP22{
         width: 220px !important;
@@ -507,9 +515,17 @@ textarea {
   }
 
   @media (max-width:412px) {
+    .p2 {
+        min-width: 300px;
+        padding-top: 170px;
+       }
     .t1 {
         padding-top: 150px;
       }
+    .imgP2 {
+        margin-left: 0px;
+        margin-top: -310px;
+    }
     .imgT1 {
     margin-left : 0px;
     margin-top: -320px ;    
@@ -520,8 +536,6 @@ textarea {
     .tStephan {
         min-width : 300px;
     }
-
-
   }
 
 

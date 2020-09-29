@@ -1,0 +1,63 @@
+{% if not read_only %}
+
+<nav style="background-color: #fff !important;" class="navbar navbar-expand-lg navbar-light" role="navigation">
+  <button id="navButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container" style="max-width: 1400px;">
+
+    <div class="row justify-content-center " style="width: 100% !important; ">
+      <div class="col hideNavItem" style="padding-top:4px;">
+        <img style="height: 20px;" src="static\img\brandLarge.png">
+      </div>
+      <div class="col">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 32px !important;">
+          <div class="navbar-nav">
+            {% set navigation_bar = [
+                        (url_for('overview_page'), "overview", "Overview"),
+                        (url_for('pacing.pacing_page'), "pacing", "Pacing"),
+                        (url_for('breakdown_page'), "breakdown", "Breakdown"),
+                        (url_for('report.root'), "report", "Report"),
+                        (url_for('settings.root'), "settings", "Settings"),
+                    ] -%}
+            {% set active_page = active_page|default('index') -%}
+            {% for href, id, caption in navigation_bar %}
+            <li>
+              <a class="nav-item nav-link {% if id == active_page %}active{% endif %}" role="presentation"
+                href="{{href}}">{{caption}}</a>
+              <div class="hideNavItem">
+                {% if id == active_page %}
+                <div style="padding-left: 20px;padding-right: 20px;" class="row d-flex justify-content-center ">
+                  <div style="max-width: 80px;" class="navSelected"></div>
+                </div>
+                {% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div id="account" class="col navAccountSmall">
+        <div class="dropright">
+          <div style="width: 150px !important; position: absolute; right: 0px; margin-right: -30px; " class="row "
+            data-toggle="dropdown">
+            <div style="padding-top: 11px;">
+              <h3  style="width: 100px !important; font-weight: 400 !important; text-align: right; font-size: 16px !important; cursor: pointer;">{{user.first_name}}
+              </h3>
+            </div>
+            <div style="padding-top: 10px; ">
+              <span class="iconify iconDashboard" data-icon="mdi:account" data-inline="false"
+                style="height: 30px; width: 30px ; "></span>
+            </div>
+          </div>
+          <div class="dropdown-menu navLogOut navSmallDrop" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="{{url_for('auth.logout')}}">Log Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</nav>
+{% endif %}
