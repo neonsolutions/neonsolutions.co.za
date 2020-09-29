@@ -16,16 +16,17 @@
     <link rel="manifest" href="/static/site.webmanifest" >
     <script  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="/static/js/nav.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light " style="z-index: 1 ;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top " style="z-index: 1 ;">
     <div class="container" style="max-width: 970px;">
-        <a class="navbar-brand" href="/">
-            <img style="height: 34px;" src="static\img\logo.svg" alt="">
-            <span style="font-family: Roboto;font-style: normal;font-weight: bold;font-size: 18px;line-height: 21px; color: #333333; padding-left: 10px;">Neon Solutions</span>
+        <a class="navbar-brand" onClick="document.getElementById('intro').scrollIntoView()" style="cursor: pointer ;">
+            <img style="height: 34px;" src="static/img/logo.svg" alt="">
+            <span style="font-family: Roboto;font-style: normal;font-weight: bold;font-size: 17px;line-height: 19px; color: #333333; padding-left: 10px; ">NEON SOLUTIONS</span>
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,9 +41,7 @@
             </div>
         </div>
     </div>
-</nav>
-
-
+  </nav>
   <!--Intro-->
   <div class="container introSection " style="overflow: hidden;" id="intro"  >
     <div class="col" style="height: 100vh;"  >
