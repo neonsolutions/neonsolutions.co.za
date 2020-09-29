@@ -12,16 +12,40 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
     <remove fileExtension=".webmanifest" />
-<mimeMap fileExtension=".webmanifest" mimeType="application/json" /> 
+    <mimeMap fileExtension=".webmanifest" mimeType="application/json" /> 
     <link rel="manifest" href="/static/site.webmanifest" >
     <script  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/static/js/nav.js"></script>
 </head>
 
-                  
+
+
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="z-index: 1 ;">
+    <div class="container" style="max-width: 970px;">
+        <a class="navbar-brand" href="/">
+            <img style="height: 34px;" src="static\img\logo.svg" alt="">
+            <span style="font-family: Roboto;font-style: normal;font-weight: bold;font-size: 18px;line-height: 21px; color: #333333; padding-left: 10px;">Neon Solutions</span>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNavAltMarkup" style="padding-right: 10px;">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link"  onClick="document.getElementById('pAbout').scrollIntoView();">About</a>
+                <a class="nav-item nav-link"  onClick="document.getElementById('pPricing').scrollIntoView();" >Pricing</a>  
+                <a class="nav-item nav-link"  onClick="document.getElementById('pTeam').scrollIntoView();" >Team</a>  
+                <a class="nav-item nav-link"  onClick="document.getElementById('pClient').scrollIntoView();" >Clients</a>  
+                <a class="nav-item nav-link"  onClick="document.getElementById('pContact').scrollIntoView();" >Contact</a>  
+            </div>
+        </div>
+    </div>
+</nav>
+
+
   <!--Intro-->
   <div class="container introSection " style="overflow: hidden;" id="intro"  >
-    <div class="col" style="height: 100vh;" >
+    <div class="col" style="height: 100vh;"  >
       <div class="row justify-content-center" >
         <lottie-player class="introAni" src="https://assets4.lottiefiles.com/packages/lf20_ehlsxkxb.json" background="transparent" speed="1"    autoplay></lottie-player>
       </div>

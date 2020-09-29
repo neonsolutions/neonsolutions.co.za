@@ -14,15 +14,7 @@
       <div class="col">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 32px !important;">
           <div class="navbar-nav">
-            {% set navigation_bar = [
-                        (url_for('overview_page'), "overview", "Overview"),
-                        (url_for('pacing.pacing_page'), "pacing", "Pacing"),
-                        (url_for('breakdown_page'), "breakdown", "Breakdown"),
-                        (url_for('report.root'), "report", "Report"),
-                        (url_for('settings.root'), "settings", "Settings"),
-                    ] -%}
-            {% set active_page = active_page|default('index') -%}
-            {% for href, id, caption in navigation_bar %}
+
             <li>
               <a class="nav-item nav-link {% if id == active_page %}active{% endif %}" role="presentation"
                 href="{{href}}">{{caption}}</a>
