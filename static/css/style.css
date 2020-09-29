@@ -4,8 +4,9 @@
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 40px !important;
    }
-
+body { scroll-padding-top: 40px !important; }
 .page {
     max-width: 960px !important;
     padding-top: 40px;
