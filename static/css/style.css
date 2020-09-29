@@ -407,6 +407,9 @@ textarea {
     }
   }
   @media (max-width:560px) {
+    .introAni {
+        padding-top: 120px;
+    }
     .a1{
      min-width: 300px  !important;
     }
@@ -464,12 +467,12 @@ textarea {
   }
 
   @media (max-width:412px) {
-      .t1 {
-          padding-top: 150px;
+    .t1 {
+        padding-top: 150px;
       }
-      .imgT1 {
-        margin-left : 0px;
-        margin-top: -320px ;    
+    .imgT1 {
+    margin-left : 0px;
+    margin-top: -320px ;    
     }
     .tLuke {
         min-width : 300px;
@@ -477,6 +480,7 @@ textarea {
     .tStephan {
         min-width : 300px;
     }
+
 
   }
 
