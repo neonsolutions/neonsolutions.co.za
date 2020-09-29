@@ -21,6 +21,10 @@ html {
     margin-top: -20px;
 
 }
+a{
+    padding-left: 2px;
+    padding-right: 2px;
+}
 .textCard {
     padding: 30px !important;
     font-family: Roboto;
