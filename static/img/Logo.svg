@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2880 2880" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.44,0,0,1.44,0,0)">
+        <path d="M73.173,436.081L756.198,34.608L1934.03,266.325L1934.03,1544.33L1252.18,1951.26L73.173,1718.38L73.173,436.081Z" style="fill:white;"/>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M331.592,598.378L1156.53,1658.45L1633.61,1374.86L809.496,317.358L331.592,598.378Z" style="fill-opacity:0.27;stroke:black;stroke-width:26.24px;"/>
+        </g>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M809.496,1210.96L809.496,317.358L331.592,598.378L331.592,1495.51L809.496,1210.96Z" style="fill-opacity:0.27;stroke:black;stroke-width:26.24px;"/>
+        </g>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M1156.53,762.146L1633.61,479.526L1633.61,1374.86L1156.53,1658.45L1156.53,762.146Z" style="fill-opacity:0.26;stroke:black;stroke-width:26.24px;"/>
+        </g>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M331.724,598.302L1156.53,1658.45L331.592,1495.51L331.724,598.302Z" style="fill:none;stroke:black;stroke-width:26.24px;"/>
+        </g>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M1633.61,479.526L809.43,317.396L331.592,598.378L1156.53,762.146L1633.61,479.526Z" style="fill:none;stroke:black;stroke-width:26.24px;"/>
+        </g>
+        <g transform="matrix(1.42921,0,0,1.42921,-400.741,-419.017)">
+            <path d="M331.592,1495.51L809.642,1210.88L1633.61,1374.86L1156.53,1658.45L331.592,1495.51Z" style="fill-opacity:0;stroke:black;stroke-width:26.24px;"/>
+        </g>
+    </g>
+</svg>
