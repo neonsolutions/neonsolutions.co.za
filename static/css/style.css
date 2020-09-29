@@ -17,10 +17,15 @@ body { scroll-padding-top: 40px !important; }
     padding-bottom: 40px;
 }
 .introSection{
-    max-width: 1400px !important;
-    padding-bottom: 40px;
-    margin-top: -20px;
-
+    min-height: 700px;
+    margin-bottom: 40px;
+        
+}
+@media (max-width:1200px){
+    .introSection {
+        min-height: none;
+        margin-top: -20px;
+    }
 }
 a{
     padding-left: 3px;
@@ -462,7 +467,7 @@ textarea {
   }
   @media (max-width:560px) {
     .mid {
-        margin-top: -40px;
+        margin-top: -50px;
     }
     .footerText {
         font-size: 12px !important;
