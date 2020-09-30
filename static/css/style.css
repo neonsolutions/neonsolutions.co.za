@@ -561,9 +561,7 @@ textarea {
         padding-right: 20px !important;
         
     }  
-    .clDividerRow {
-        padding-left: 10px;
-    }
+
     .clWebsite  {
         font-size: 13px !important;
         line-height: 15px !important;
@@ -738,10 +736,7 @@ color: #4F4F4F !important;
 
 }
 .clDivider {
-    background: rgba(196, 196, 196, 0.15);
-    height: 2px;
     width: 100%;
-    margin-top: 40px ;
     margin-bottom: 40px ;
 }
 .clTLM {
