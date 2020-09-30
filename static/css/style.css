@@ -290,6 +290,9 @@ textarea {
 .cUn {
     max-width: 300px;
 }
+.clUn {
+    max-width: 210px;
+}
 .fm {
     display: none ;
 }
@@ -317,6 +320,9 @@ textarea {
     }
     .cUn {
         max-width: 195px;
+    }
+    .clUn {
+        max-width: 130px;
     }
     .a1 {   
      padding-top: 25px;
@@ -547,7 +553,44 @@ textarea {
         font-size: 15px;
         line-height: 19px;
         padding:20px !important;
-    }   
+    }  
+    .clTextCard {
+        font-size: 15px !important;
+        line-height: 19px !important;
+        padding-left: 55px !important;
+        padding-right: 20px !important;
+        
+    }  
+    .clWebsite  {
+        font-size: 13px !important;
+        line-height: 15px !important;
+    
+    }
+    .clTextHeading {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        padding-top: 20px ;
+        padding-bottom: 10px;
+    }
+    .clLogoCard {
+        width: 80px !important;
+        height: 70px !important;
+    }
+    .clTLM {
+        width: 44px !important; 
+        padding-top: 14px !important; 
+        margin-left: 18px !important;
+        
+    }
+    .clMasQ {
+        width: 44px !important;  
+        padding-top: 15px !important; 
+        margin-left: 18px !important; 
+        
+    }
+    .clLogoOut {
+        width: 25px  !important;
+    }
   }
 
   @media (max-width:412px) {
@@ -645,3 +688,69 @@ color: #4F4F4F !important;
     border: none;
 }
 
+.clLogoCard {
+    width: 140px;
+    height: 140px;
+    margin-top: 25px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.clTextCard {
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 23px;
+    line-height: 28px;
+    color: #828282;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.clTextHeading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px ;
+    line-height: 41px !important;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    color: #4F4F4F ;
+}
+.clWebsite {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    width: 100%;
+    padding-top:15px;
+    padding-bottom: 10px;
+    color: rgba(189, 189, 189, 0.66);
+
+}
+.clDivider {
+    background: rgba(196, 196, 196, 0.15);
+    height: 2px;
+    width: 100%;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+}
+.clTLM {
+    width: 80px; 
+    padding-top: 30px; 
+    margin-left: 30px;
+}
+.clMasQ {
+    width: 80px;  
+    padding-top: 30px; 
+    margin-left: 30px;
+}
+.clLogoOut {
+    width: 55px ;
+}
